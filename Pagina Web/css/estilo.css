@@ -1,0 +1,83 @@
+/*
+Cosas de diseño
+*/
+@keyframes animacion_test{
+	from{
+		background-color: #00AAFF;
+	}
+	to{
+		background-color: #4522AA;
+	}
+}
+
+body{
+	font-family: "Comic Sans MS";
+	color:#333;
+	font-size: 1.3rem;
+	line-height: 1.4em;
+	margin: 0;
+}
+p{
+	margin-bottom: 1.6em;
+}
+h1{
+	line-height: 1.3em;
+	font-size: 2rem;
+}
+.conatiner{
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.header{
+	background:#333;
+	color: white;
+	height: 10rem;
+	position: fixed;
+	left: 0;
+	top:  0;
+	right: 0;
+	animation: animacion_test 5s alternate infinite;
+}
+.main{
+	padding: 12rem;
+}
+.header a{
+	color: white;
+	text-decoration: none;
+}
+.logo{
+	letter-spacing: 5px;
+	font-size: 1.2em;
+}
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+.navigation ul li{
+	display: inline-block;
+
+}
+.navigation ul li a {
+	display: block;
+	padding: 0.5rem 1rem;
+	transition:all 0.4s linear;	
+}
+.navigation ul li a:hover{
+	background:#C0C0C0;
+}
+.footer{
+	background: #F2F2F2;
+	padding: 3rem 0;
+	text-align: right;
+	margin-top: 6rem;
+
+}
